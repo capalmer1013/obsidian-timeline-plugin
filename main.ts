@@ -24,10 +24,10 @@ export default class TimelineViewer extends Plugin {
 
 	async onload() {
 		await this.loadSettings();
-		console.log("test");
+		console.log("Loading Timeline Viewer plugin");
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon(
-			"dice",
+			"watch",
 			"Timeline Viewer",
 			(evt: MouseEvent) => {
 				// Called when the user clicks the icon.
