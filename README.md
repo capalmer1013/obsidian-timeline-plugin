@@ -1,3 +1,21 @@
+# Getting Started
+- clone repo
+- `export VAULT_PATH=` (insert test vault directory)
+	- go to test vault dir and run `pwd`
+- `cd VAULT_PATH/.obsidian/plugins`
+- `mkdir timeline-viewer`
+- Return to this dir
+- `npm install`
+- `npm run dev`
+- `make build`
+
+
+
+---
+
+# Template Docs
+
+
 # Obsidian Timeline Viewer
 
 This is a Timeline Viewer for Obsidian (https://obsidian.md).
